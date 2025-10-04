@@ -37,6 +37,7 @@
   {
    "fieldname": "status",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Status",
    "options": "Online\nOffline",
    "reqd": 1
@@ -60,7 +61,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-04 19:27:40.514056",
+ "modified": "2025-10-05 00:05:43.373126",
  "modified_by": "Administrator",
  "module": "Live Grid",
  "name": "Camera",
