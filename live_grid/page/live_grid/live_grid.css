@@ -1,0 +1,28 @@
+.camera-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* responsive columns */
+    gap: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.camera {
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow: hidden; /* prevent overflow */
+    position: relative;
+}
+
+.camera video {
+    width: 100%;       /* fill container width */
+    height: auto;      /* maintain aspect ratio */
+    object-fit: cover; /* crop if needed */
+    display: block;    /* remove gaps below video */
+}
+
+/* Optional: add extra spacing for small screens */
+@media (max-width: 768px) {
+    .camera-grid {
+        grid-template-columns: 1fr; /* 1 column on mobile */
+    }
+}

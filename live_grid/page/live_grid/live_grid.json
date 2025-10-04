@@ -1,0 +1,20 @@
+{
+ "content": null,
+ "creation": "2025-10-04 19:52:42.379805",
+ "docstatus": 0,
+ "doctype": "Page",
+ "icon": "CCTV",
+ "idx": 0,
+ "modified": "2025-10-04 19:52:42.379805",
+ "modified_by": "Administrator",
+ "module": "Live Grid",
+ "name": "live_grid",
+ "owner": "Administrator",
+ "page_name": "live_grid",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Live CCTV Grid"
+}
