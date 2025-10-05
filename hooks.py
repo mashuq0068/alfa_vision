@@ -4,6 +4,8 @@ app_publisher = "💡 Key points covered in the description:"
 app_description = "lfaVision – A real-time computer vision and analytics platform built on Frappe. Stream live camera feeds, monitor events, analyze anomalies, and integrate with ERPNext for intelligent workflow automation."
 app_email = "mashuq0068@gmail.com"
 app_license = "mit"
+app_include_js = "/assets/alfavision_app/js/camera.js"
+
 
 # Apps
 # ------------------
